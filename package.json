@@ -1,0 +1,23 @@
+{
+  "name": "bind-observable",
+  "version": "1.0.0",
+  "description": "Bind Observable to a unique name... new binding will cancel the previous subscription automatically",
+  "scripts": {
+    "test": "jasmine-ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.2",
+    "jasmine": "^3.5.0",
+    "jasmine-gherkin": "^1.0.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.3.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.7.0-dev.20191004"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}
