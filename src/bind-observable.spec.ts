@@ -114,9 +114,6 @@ describe('bind-observable', () => {
         .then('it should unsubscribe from "a" and "b"', () => {
             expect(__getObservableNames()).toEqual([])
         })
-        .then('it should not error out', () => {
-            expect(result).toBeNull()
-        })
         .run()
 
 })

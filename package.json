@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Bind Observable to a unique name... new binding will cancel the previous subscription automatically",
   "scripts": {
-    "test": "jasmine-ts"
+    "test": "jasmine-ts",
+    "build": "tsc -p tsconfig.app.json"
   },
   "author": "",
   "license": "ISC",
