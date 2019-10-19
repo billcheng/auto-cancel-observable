@@ -1,13 +1,13 @@
 import { test } from 'jasmine-gherkin'
 import { Subscription, Subject } from 'rxjs'
 import * as binder from './bind-observable'
-import { BindObservable } from './decorator-bind-observable'
+import { AutoCancelObservable } from './decorator-auto-cancel-observable'
 
 class Test {
 
     subject = new Subject<number>()
 
-    @BindObservable()
+    @AutoCancelObservable()
     observable() {
         return this.subject
     }
